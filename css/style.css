@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color:#ccc;
+}
+
+/*Box content*/
+
+.box-content{
+    width: 65%;
+    min-height: 300px;
+    margin: 25px auto;
+}
+
+/* first part */
+
+.first-part{
+    display: flex;
+    min-height: 200px;
+}
+
+.part-left{
+    flex: 2;
+    min-height: 100px;
+    padding: 20px;
+}
+
+.part-left_illustration{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+.part-left_description{
+    padding: 28px 0 5px;
+}
+
+.part-left_description span{
+    color: #4b7bd9;
+}
+
+.part-left_description h1{
+    font-weight: bold;
+    font-size: 40px;
+    margin: 18px 0;
+}
+
+.part-left_description p{
+    font-size:18px ;
+    margin-bottom: 16px;
+}
+
+.btn-link{
+    border: none;
+    font-size: 17px;
+    padding: 10px 20px ;
+    background-color: #0156fb;
+    color: white;
+    border-radius: 5px;
+}
+
+.part-right{
+    flex: 1;
+    height: 100px;
+    padding: 20px;
+}
+
+.items{
+    display: flex;
+    margin-bottom: 26px;
+}
+
+.items_illustrations{
+    height: 150px;
+    width: 100%;
+    flex: 1;
+    background-color: black;
+    border-radius: 6px;
+}
+
+.items_descriptions{
+    flex: 1;
+    padding-left: 18px;
+}
+
+.items_descriptions h4{
+    margin: 18px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.items_descriptions span{
+    color: #cb5159;
+}
+
+/*second part*/
+
+.second-part{
+    margin-top: 60px;
+}
+
+.second-part_row{
+    display: flex;
+    margin-top: 20px;
+}
+
+.cards{
+    margin-right: 35px ;
+    flex: 1;
+    min-height: 250px;
+}
+
+.card-illustrations{
+    height: 230px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+.card-descriptions{
+    padding: 18px 0;
+}
+
+.card-descriptions span{
+    color: #4b7bd9;
+}
+
+.card-descriptions h3{
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.card-descriptions a{
+color: black;
+}
+
+.card-descriptions a:hover{
+    color: #4b7bd9 ;
+}
+
+/* third part*/
+
+.third-part{
+    margin-top: 60px;
+}
+
+.third-part_row{
+    display: flex;
+}
+
+.third-part_left{
+    flex: 2;
+    padding: 20px 0;
+}
+
+.third-part_right{
+    flex: 1;
+}
+
+.items-illustrations{
+    width:25% ;
+    height: 150px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.illustration{
+    height: 500px;
+    background-color:black;
+    border-radius: 7px;
+}
+
